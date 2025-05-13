@@ -24,7 +24,7 @@ query = ""
 
 cursor.execute(query)
 for row in cursor:
-   print(row)
+   print(row[0], row[1])
    a.append(row)
 
 
